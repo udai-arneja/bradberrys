@@ -1,0 +1,116 @@
+
+body{
+  background-color:#1A336F;
+  margin: 0px;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:38px;
+}
+
+.alllinks{
+  display: flex;
+}
+
+.navbar > .alllinks > div{
+    margin-right:20px;
+    font-size:1.5vw;
+    text-transform: uppercase;
+}
+
+.link{
+    height: 22px;
+}
+
+.about-wrapper{
+  width:1150px;
+  margin:0px auto;
+  position:relative;
+}
+
+.about-wrapper-background{
+  position:relative;
+}
+
+.img-text-left{
+  width: 575px;
+  position:absolute;
+  top:0;
+  display:flex;
+  align-items: center;
+  height: 100%;
+  left:0;
+}
+
+.img-text-right{
+  width: 525px;
+  color:white;
+  position:absolute;
+  top:0;
+  display:flex;
+  align-items: center;
+  height: 100%;
+  right: 0;
+}
+
+.aboutlogo{
+  padding-left:35px;
+}
+
+.abouttext{
+  padding-right:35px;
+}
+
+@media screen and (max-width:1150px){
+  /* resizing background image and smaller images in about */
+    .about-wrapper{
+      width: 100%;
+    }
+    .img-text-left{
+      width: 47%;
+    }
+    .img-text-right{
+      width: 45%;
+    }
+}
+
+@media screen and (max-width:950px){
+  /* change nav bar to drop down */
+
+}
+
+@media screen and (max-width:700px){
+  /* making the about content one on top of the other */
+  .img-text-left{
+    width: 30%;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px; /* Half the height */
+    margin-left: -250px; /* Half the width */
+  }
+  .aboutlogo{
+    padding-left: 0px;
+    margin: 0px auto;
+  }
+  .img-text-right{
+    width: 80%;
+    position: relative;
+    margin:0px auto;
+  }
+  .abouttext{
+    padding-right:0;
+  }
+}
+
+@media screen and (max-width:320px){
+  /* minimum screen size */
+  .about-wrapper{
+    width: 320px;
+  }
+}
