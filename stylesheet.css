@@ -85,14 +85,12 @@ body{
 @media screen and (max-width:700px){
   /* making the about content one on top of the other */
   .img-text-left{
-    width: 30%;
     position: absolute;
     top:30%;
-    left: 50%;
-    width: 500px;
+    width: 90%;
     height: 500px;
     margin-top: -250px; /* Half the height */
-    margin-left: -250px; /* Half the width */
+    padding-left: 10%;
   }
   .aboutlogo{
     padding-left: 0px;
