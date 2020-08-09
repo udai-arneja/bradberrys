@@ -114,8 +114,8 @@ body{
       height: 15px;
   }
   .abouttext{
-  padding-right:0px;
-}
+    padding-right:0px;
+  }
 }
 
 @media screen and (max-width:300px){
@@ -124,12 +124,9 @@ body{
     width: 300px;
   }
   .img-text-left{
-    position: absolute;
-    top:30%;
     width: 90%;
-    height: 500px;
-    margin-top: -250px; /* Half the height */
-    padding-left: 10%;
+    align-items: flex-start;
+    padding-top: 25%;
   }
   .aboutlogo{
     padding-left: 0px;
