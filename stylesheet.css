@@ -113,6 +113,9 @@ body{
   .link{
       height: 15px;
   }
+  .abouttext{
+  padding-right:0px;
+}
 }
 
 @media screen and (max-width:300px){
