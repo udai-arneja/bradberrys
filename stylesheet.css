@@ -1,3 +1,4 @@
+
 body{
   background-color:#1A336F;
   margin: 0px;
@@ -90,6 +91,7 @@ body{
 
 @media screen and (max-width:700px){
   /* making the about content one on top of the other */
+  /* once it goes here the nav bar at the top doesnt work */
   .img-text-left{
     position: absolute;
     top:30%;
@@ -113,12 +115,20 @@ body{
   .navbar{
     padding: 20px;
   }
+  .navbar > .alllinks > div{
+      margin-right:10px;
+      font-size:2vw;
+      text-transform: uppercase;
+  }
+  .link{
+      height: 15px;
+  }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:300px){
   /* minimum screen size */
   .about-wrapper{
-    width: 320px;
+    width: 300px;
   }
   .img-text-left{
     position: absolute;
