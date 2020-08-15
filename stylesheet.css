@@ -1,0 +1,513 @@
+
+body{
+  background-color:#1A336F;
+  margin: 0px;
+}
+
+/* ////////NAV BAR/////////// */
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:38px;
+}
+
+.logo{
+  width:30%;
+}
+
+.alllinks{
+  display: flex;
+}
+
+.navbar > .alllinks > div{
+    margin-right:20px;
+    font-size:1.5vw;
+    text-transform: uppercase;
+}
+
+.link{
+    height: 22px;
+}
+
+/* /////// FRONT PAGE /////////// */
+
+.about-wrapper{
+  width:1150px;
+  margin:0px auto;
+  position:relative;
+}
+
+.about-wrapper-background{
+  position:relative;
+}
+
+.img-text-left{
+  width: 575px;
+  position:absolute;
+  top:0;
+  display:flex;
+  align-items: center;
+  height: 100%;
+  left:0;
+}
+
+.img-text-right{
+  width: 525px;
+  color:white;
+  position:absolute;
+  top:0;
+  display:flex;
+  align-items: center;
+  height: 100%;
+  right: 0;
+}
+
+.aboutlogo{
+  padding-left:35px;
+}
+
+.abouttext{
+  padding-right:35px;
+}
+
+/* /////// SERVICE /////////// */
+
+.servicescontent{
+  width: 1150px;
+  margin: 0px auto;
+}
+
+.title-wrapper{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.title-wrapper2{
+  background: white;
+}
+
+.pagetitle{
+  width:95%;
+  margin: 0px auto;
+  color: #1A336F;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.pageintro{
+  width:95%;
+  margin: 0px auto;
+  color: #1A336F;
+  text-align: center;
+  font-size: 1.5vw;
+  padding-bottom: 5px;
+}
+
+.services-items-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-item-wrapper{
+  position: relative;
+}
+
+.service-img-background{
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.names{
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;                     /*choose correct colour*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #1A336F;
+  font-size: 1.5vw;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.names a{
+  color: white;                     /*choose correct colour*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #1A336F;
+}
+
+.names:hover{
+  color: lightblue;
+}
+
+.names a:hover{
+  color: lightblue;
+  text-decoration: none;
+}
+
+
+.img-darken {
+  transition: 0.5s;
+  filter: brightness(40%);
+}
+
+/* /////// PEOPLE /////////// */
+
+.peoplecontent{
+  width: 1150px;
+  margin: 0px auto;
+}
+.peoplecontentsstyling{
+  width: 100%;
+  margin: 0px auto;
+  background: white;
+}
+
+.people-title-wrapper{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.people-title-wrapper2{
+  background: white;
+}
+
+.people-pagetitle{
+  width:95%;
+  margin: 0px auto;
+  color: #1A336F;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.people-pageintro{
+  width:95%;
+  margin: 0px auto;
+  color: #1A336F;
+  text-align: center;
+  font-size: 1.5vw;
+  padding-bottom: 5px;
+  background: white;
+}
+
+.allpeople-wrapper{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background: white;
+}
+
+.people-wrapper2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.people-wrapper{
+  width:1000px;
+  margin:0px auto;
+  position:relative;
+
+}
+
+.people-wrapper-background{
+  width:1000px;
+  margin:0px auto;
+  position:relative;
+  align-items: center;
+}
+
+.img-right{
+  width: 30%;
+  position:absolute;
+  top:0;
+  display:flex;
+  align-items:center;
+  height: 100%;
+  right:0;
+}
+
+.size{
+  padding-left:35px;
+  width: 260px;
+  height:100%;
+  align-items: center;
+  padding-top: 25px;
+}
+.text-left{
+  color: white;
+  width: 70%;
+  position:absolute;
+  top:0;
+  display:flex;
+  align-items: center;
+  height: 100%;
+  left: 0;
+}
+
+.peopletext{
+  width: 95%;
+  margin:0px auto;
+  text-align: center;
+}
+
+.peopletext h1{
+  font-size: 2vw;
+}
+.peopletext p{
+  margin: 0px;
+  font-size: 1.5vw;
+}
+
+/* /////// REVIEWS /////////// */
+/* /////// CONTACT US /////////// */
+
+@media screen and (max-width:1150px){
+  /* resizing background image and smaller images in about */
+
+    /* ////////NAV BAR/////////// */
+    .navbar{
+      padding: 30px;
+    }
+
+    /* /////// FRONT PAGE /////////// */
+
+    .about-wrapper{
+      width: 100%;
+    }
+    .img-text-left{
+      width: 47%;
+    }
+    .img-text-right{
+      width: 45%;
+    }
+
+    /* /////// SERVICE /////////// */
+
+    .servicescontent{
+      width: 100%;
+    }
+    .names{
+      font-size: 2vw;
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+    .service-img-background{
+      height: 250px;
+    }
+    .pagetitle{
+      font-size: 3vw;
+    }
+    .pageintro{
+      font-size:2vw;
+    }
+
+    /* /////// PEOPLE /////////// */
+
+    .people-pagetitle{
+      font-size: 3vw;
+    }
+    .people-pageintro{
+      font-size:2vw;
+    }
+    .peoplecontent{
+      width: 100%;
+    }
+    /* .people-wrapper2{
+      padding-bottom: 20px;
+    } */
+
+    .people-wrapper{
+      width:100%;
+    }
+    .people-wrapper-background{
+      width:95%;
+    }
+    .img-right{
+      padding-right: 30px;
+      padding-top: 0px;
+    }
+    .peopletext h1{
+      font-size: 2.6vw;
+    }
+    .peopletext p{
+      margin: 0px;
+      font-size: 2vw;
+    }
+    .size{
+      /* padding-top: 18px; */
+      padding-left:35px;
+      width: 250px;
+    }
+
+    /* /////// REVIEWS /////////// */
+    /* /////// CONTACT US /////////// */
+}
+
+@media screen and (max-width:1000px){
+  /* change nav bar to drop down */
+  .size{
+    padding-top: 15px;
+    padding-left:35px;
+    width: 240px;
+  }
+  .people-wrapper2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width:700px){
+  /* making the about content one on top of the other */
+  /* once it goes here the nav bar at the top doesnt work
+
+  /* ////////NAV BAR/////////// */
+  .navbar{
+    padding: 20px;
+  }
+  .navbar > .alllinks > div{
+      margin-right:10px;
+      font-size:2.3vw;
+      text-transform: uppercase;
+  }
+  .link{
+      height: 15px;
+  }
+  .logo{
+    width:40%;
+  }
+
+  /* /////// FRONT PAGE /////////// */
+
+  .img-text-left{
+    width: 90%;
+    align-items: flex-start;
+    padding-top: 25%;
+  }
+  .img-text-right{
+    width: 80%;
+    position: relative;
+    margin:0px auto;
+  }
+  .abouttext{
+    padding-right:0px;
+  }
+
+  /* /////// SERVICE /////////// */
+
+  .services-items-wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .service-img-background{
+    height: 200px;
+  }
+  .names{
+    font-size: 3vw;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .pagetitle{
+    font-size: 3.5vw;
+  }
+  .pageintro{
+    font-size:2.5vw;
+  }
+
+  /* /////// PEOPLE /////////// */
+
+  .people-pagetitle{
+    font-size: 3.5vw;
+  }
+  .people-pageintro{
+    font-size:2.5vw;
+  }
+  .people-wrapper2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .size{
+    padding-top: 10px;
+    padding-left:20px;
+    width: 220px;
+  }
+
+  /* /////// REVIEWS /////////// */
+  /* /////// CONTACT US /////////// */
+}
+
+@media screen and (max-width:600px){
+  /* change nav bar to drop down */
+  .size{
+    padding-top: 10px;
+    padding-left:20px;
+    width: 250px;
+  }
+  .people-wrapper2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:520px){
+  /* change nav bar to drop down */
+  .size{
+    padding-top: 15px;
+    padding-left:10px;
+    width: 260px;
+  }
+  .people-wrapper2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:360px){
+  /* minimum screen size */
+  .navbar{
+    padding: 20px;
+  }
+  .navbar > .alllinks > div{
+      margin-right:10px;
+      font-size:10px;
+      text-transform: uppercase;
+  }
+  .link{
+      height: 15px;
+  }
+  .logo{
+    width:30%;
+    height: 30px;
+  }
+  .about-wrapper{
+    width: 360px;
+  }
+  .img-text-left{
+    width: 320px;
+    align-items: flex-start;
+    padding-top: 25%;
+  }
+  .aboutlogo{
+    padding-left: 0px;
+    margin: 0px auto;
+  }
+  .img-text-right{
+    width: 280px;
+    position: relative;
+    margin:0px auto;
+  }
+  .abouttext{
+    padding-right:0;
+  }
+}
+}

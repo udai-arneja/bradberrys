@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
+    <title>Bradberrys Solicitors - Our Services</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logos/bradberryswhite.png" width='80%'></a>
+        </div>
+        <div class="alllinks">
+            <div class="link">
+                <a href="people.html">People</a>
+            </div>
+            <div class="link">
+                <a href="services.html">Services</a>
+            </div>
+            <div class="link">
+                <a href="reviews.html">Reviews</a>
+            </div>
+            <div class="link">
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="servicescontent">
+        <div class="title-wrapper">
+        <div class="title-wrapper2">
+              <div class="pagetitle">Services We Offer at Bradberrys</div>
+              <div class="pageintro">
+                    <a>
+                        At Bradberrys we offer a wide range of services, providing high-quality specialist
+                        advice for all our clients. For any further please contact us on
+                        <a href="mailto:enquiries@bradberrys.co.uk">
+                            enquiries@bradberrys.co.uk
+                        </a>
+                    </a>
+              </div>
+        </div>
+        </div>
+        <div class="services-items-wrapper">
+              <a href="comconv.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/city.png)"></div>
+                    <div class="names">
+                          Commercial Conveyancing
+                    </div>
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/towerblock.png)"></div>
+                    <div class="names">
+                          Residential Conveyancing
+                    </div>
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/contract.png)"></div>
+                    <div class="names">
+                          Contracts and Partnership Agreements
+                    </div>
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/residential2.png)"></div>
+                    <div class="names">
+                          Commercial Landlord and Tenant issues
+                    </div>
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/probate.png)"></div>
+                    <div class="names">
+                          Wills Probate Trust and Inheritance Tax Planning
+                    </div>
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/debt3.png)"></div>
+                    <div class="names">
+                          General Litigation
+                    </div>
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/employment.png)"></div>
+                    <div class="names">
+                          Employment Law - Settlement Agreements
+                    </div>
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="service-item-wrapper">
+                    <div class="service-img-background" style="background-image:url(Photos/Images/sale.png)"></div>
+                    <div class="names">
+                          Sale and purchase of business
+                    </div>
+              </div>
+              </a>
+        </div>
+    </div>
+
+  </body>
+  <script>
+        const ServiceItems = document.querySelectorAll('.service-item-wrapper')
+        ServiceItems.forEach(ServiceItem => {
+              ServiceItem.addEventListener('mouseover', () =>{
+                    ServiceItem.childNodes[1].classList.add('img-darken');
+              })
+              ServiceItem.addEventListener('mouseout', () =>{
+                    ServiceItem.childNodes[1].classList.remove('img-darken');
+              })
+        })
+  </script>
+</html>
