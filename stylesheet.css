@@ -4,7 +4,8 @@ body{
   margin: 0px;
 }
 
-/* ///////// PRELOADER /////// */
+/* //////////////////// */
+
 
 .preloader {
   background-color: #f7f7f7;
@@ -109,6 +110,7 @@ body{
     transition: .6s;
   }
 }
+
 
 /* ////////NAV BAR/////////// */
 
@@ -268,6 +270,81 @@ body{
   filter: brightness(40%);
 }
 
+/* ////////INDIVIDUAL SERVICE ///// */
+
+.servicecontent{
+  width: 1150px;
+  margin: 0px auto;
+}
+
+.servicetitle-wrapper{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.servicetitle-wrapper2{
+  background: white;
+}
+
+.servicepagetitle{
+  width:95%;
+  margin: 0px auto;
+  color: #1A336F;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.servicepage{
+  width:95%;
+  margin: 0px auto;
+  color: #1A336F;
+  text-align: justify;
+  font-size: 1.5vw;
+  padding-bottom: 5px;
+}
+
+.servicepage h2{
+  text-align: center;
+  width:95%;
+  margin: 0px auto;
+  color: #1A336F;
+  font-size: 1.5vw;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+.half-half{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 10px;
+}
+
+.left{
+  width: 95%;
+  margin: auto;
+}
+
+.right ul{
+  font-size: 1.2vw;
+}
+.right p{
+  text-align: center;
+}
+.object-wrapper{
+  width: 80%;
+  margin: auto;
+}
+object{
+  width: 100%;
+  height:300px;
+}
+.empty{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+
 /* /////// PEOPLE /////////// */
 
 .peoplecontent{
@@ -375,6 +452,37 @@ body{
 }
 
 /* /////// REVIEWS /////////// */
+
+  .reviewscontent{
+    width: 1150px;
+    margin: 0px auto;
+  }
+  .reviewstitle-wrapper{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .reviewstitle-wrapper2{
+    background: white;
+  }
+
+  .reviewspagetitle{
+    width:95%;
+    margin: 0px auto;
+    color: #1A336F;
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  .reviewspageintro{
+    width:95%;
+    margin: 0px auto;
+    color: #1A336F;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-bottom: 5px;
+    background: white;
+  }
+
 /* /////// CONTACT US /////////// */
 .contactcontent-wrapper{
   width: 1150px;
@@ -505,6 +613,12 @@ h5{
       font-size:2vw;
     }
 
+    /* ////////INDIVIDUAL SERVICE ///// */
+
+    .servicecontent{
+      width: 100%;
+    }
+
     /* /////// PEOPLE /////////// */
 
     .people-pagetitle{
@@ -544,6 +658,11 @@ h5{
     }
 
     /* /////// REVIEWS /////////// */
+
+    .reviewscontent{
+      width: 100%;
+    }
+
     /* /////// CONTACT US /////////// */
     .contactcontent-wrapper{
       width: 100%;
@@ -622,6 +741,50 @@ h5{
     font-size:3vw;
   }
 
+/* ////////INDIVIDUAL SERVICE ///// */
+
+  .servicetitle-wrapper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .servicepagetitle{
+    font-size: 4vw;
+  }
+  .servicepage{
+    font-size: 2.5vw;
+  }
+  .servicepage h2{
+    font-size: 2.5vw;
+    padding-bottom: 5px;
+  }
+  .half-half{
+    grid-template-columns: 1fr;
+    padding-bottom: 5px;
+  }
+  .left{
+    width: 80%;
+    margin: auto;
+  }
+  .right{
+    padding-top: 5px;
+  }
+  .right p{
+    text-align: center;
+    margin:2px;
+  }
+  .right ul{
+    margin:5px;
+    font-size: 2vw;
+  }
+  .empty{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  object{
+    height:150px;
+  }
+
   /* /////// PEOPLE /////////// */
 
   .people-pagetitle{
@@ -648,6 +811,19 @@ h5{
   }
 
   /* /////// REVIEWS /////////// */
+
+  .reviewstitle-wrapper{
+    padding-top: 10px;
+  }
+  .reviewstitle-wrapper2{
+    background: white;
+  }
+  .reviewspagetitle{
+    font-size: 4vw;
+  }
+  .reviewspageintro{
+    font-size: 3vw;
+  }
   /* /////// CONTACT US /////////// */
 
   .contactcontentone-wrapper{
