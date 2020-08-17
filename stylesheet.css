@@ -270,6 +270,87 @@ body{
 
 /* /////// REVIEWS /////////// */
 /* /////// CONTACT US /////////// */
+.contactcontent-wrapper{
+  width: 1150px;
+  padding-bottom: 10px;
+  margin: 0px auto;
+}
+.contactcontentone-wrapper{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.contactcontentone{
+  background: white;
+}
+.contacttitle{
+  font-size: 2.5vw;
+  text-align: center;
+  color: #1A336F;
+}
+.contactintro{
+  font-size: 1.5vw;
+  text-align: center;
+  color: #1A336F;
+  width: 95%;
+  margin: 0px auto;
+}
+.contactcontenttwo-wrapper{
+  color: #1A336F;
+  width: 100%;
+  padding-top: 10px;
+}
+.contactcontenttwo{
+  background: white;
+}
+.location{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+}
+.locationleft{
+  margin: 0px auto;
+}
+.locationright{
+  /* margin: 0px auto; */
+  text-align: center;
+  padding-top: 100px;
+}
+.contactsubtitle{
+  font-size: 1.7vw;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.table-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+table{
+  margin: auto;
+}
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+.facebook{
+  width: 200px;
+  margin: auto;
+}
+.facebook img{
+  width: 200px;
+}
+.details{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+h5{
+  text-align: center;
+}
 
 @media screen and (max-width:1150px){
   /* resizing background image and smaller images in about */
@@ -278,7 +359,9 @@ body{
     .navbar{
       padding: 30px;
     }
-
+    .logo{
+      width:40%;
+    }
     /* /////// FRONT PAGE /////////// */
 
     .about-wrapper{
@@ -351,6 +434,9 @@ body{
 
     /* /////// REVIEWS /////////// */
     /* /////// CONTACT US /////////// */
+    .contactcontent-wrapper{
+      width: 100%;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -373,7 +459,8 @@ body{
 
   /* ////////NAV BAR/////////// */
   .navbar{
-    padding: 20px;
+    padding: 10px;
+    padding-right: 0px;
   }
   .navbar > .alllinks > div{
       margin-right:10px;
@@ -384,7 +471,7 @@ body{
       height: 15px;
   }
   .logo{
-    width:40%;
+    width:45%;
   }
 
   /* /////// FRONT PAGE /////////// */
@@ -418,19 +505,19 @@ body{
     padding-right: 50px;
   }
   .pagetitle{
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   .pageintro{
-    font-size:2.5vw;
+    font-size:3vw;
   }
 
   /* /////// PEOPLE /////////// */
 
   .people-pagetitle{
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   .people-pageintro{
-    font-size:2.5vw;
+    font-size:3vw;
   }
   .people-wrapper2{
     padding-top: 5px;
@@ -441,9 +528,77 @@ body{
     padding-left:20px;
     width: 220px;
   }
+  .peopletext h1{
+    font-size: 3.5vw;
+  }
+  .peopletext p{
+    margin: 0px;
+    font-size: 2vw;
+  }
 
   /* /////// REVIEWS /////////// */
   /* /////// CONTACT US /////////// */
+
+  .contactcontentone-wrapper{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .contactcontentone{
+    background: white;
+  }
+  .contacttitle{
+    font-size: 4vw;
+  }
+  .contactintro{
+    font-size:3vw;
+  }
+  .contactcontenttwo-wrapper{
+    padding-top: 10px;
+  }
+  .location{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+  }
+  .locationright{
+    padding-top: 10px;
+  }
+  .contactsubtitle{
+    font-size: 3.5vw;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .table-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+  table{
+    margin: auto;
+  }
+  th{
+    text-align: center;
+  }
+  td{
+    text-align: center;
+  }
+  .facebook{
+    width: 200px;
+    margin: auto;
+  }
+  .facebook img{
+    width: 200px;
+  }
+  .details{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+  }
+
+  h5{
+    text-align: center;
+    font-size: 3vw;
+  }
 }
 
 @media screen and (max-width:600px){
