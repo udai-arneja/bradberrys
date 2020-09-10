@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
     <title>Bradberrys Solicitors - Our Services</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
   </head>
   <body>
     <div id="preloader-active">
@@ -13,14 +16,14 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="services.png" alt="">
+                    <img src="logos/services.png" alt="">
                 </div>
             </div>
         </div>
     </div>
     <div class="navbar">
         <div class="logo">
-            <a href="index.html"><img src="bradberryswhite.png" width='80%'></a>
+            <a href="index.html"><img src="logos/bradberryswhite.png" width='80%'></a>
         </div>
         <div class="alllinks">
             <div class="link">
@@ -55,7 +58,7 @@
         <div class="services-items-wrapper">
               <a href="comconv.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(citymin.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/citymin.png)"></div>
                     <div class="names">
                           Commercial Conveyancing
                     </div>
@@ -63,7 +66,7 @@
               </a>
               <a href="resconv.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(cottagemin.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/cottagemin.png)"></div>
                     <div class="names">
                           Residential Conveyancing
                     </div>
@@ -71,7 +74,7 @@
               </a>
               <a href="contracts.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(contractmin.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/contractmin.png)"></div>
                     <div class="names">
                           Contracts and Partnership Agreements
                     </div>
@@ -79,7 +82,7 @@
               </a>
               <a href="landlord.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(residential2min.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/residential2min.png)"></div>
                     <div class="names">
                           Commercial Landlord and Tenant issues
                     </div>
@@ -87,7 +90,7 @@
               </a>
               <a href="probate.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(probatemin.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/probatemin.png)"></div>
                     <div class="names">
                           Wills Probate Trust and Inheritance Tax Planning
                     </div>
@@ -95,7 +98,7 @@
               </a>
               <a href="generallit.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(debt3min.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/debt3min.png)"></div>
                     <div class="names">
                           General Litigation
                     </div>
@@ -103,7 +106,7 @@
               </a>
               <a href="employment.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(employmentmin.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/employmentmin.png)"></div>
                     <div class="names">
                           Employment Law - Settlement Agreements
                     </div>
@@ -111,17 +114,36 @@
               </a>
               <a href="sale.html">
               <div class="service-item-wrapper">
-                    <div class="service-img-background" style="background-image:url(salemin.png)"></div>
+                    <div class="service-img-background" style="background-image:url(Photos/salemin.png)"></div>
                     <div class="names">
-                          Sale and purchase of business
+                          Sale and Purchase of Business
                     </div>
               </div>
               </a>
         </div>
     </div>
-
+    <div class="footer-wrapper">
+        <div class="footer">
+            <div class="footer-left">
+                <img src="logos/quality.png" width=100%>
+            </div>
+            <div class="footer-middle">
+                <h1>Contact Us</h1>
+                <a href="tel:02088136962"><p>&#8594;</p><p>T : 02088136962</p></a>
+                <a href="mailto:enquiries@bradberrys.co.uk"><p>&#8594;</p><p>E : enquiries@bradberrys.co.uk</p></a>
+                <a href="contact.html"><p>&#8594;</p><p> A : UB4 0SD</p></a>
+            </div>
+            <div class="footer-right">
+                <h1>quick links </h1>
+                <a href="services.html"><p>&#8594;</p><p>Services</p></a>
+                <a href="people.html"><p>&#8594;</p><p> Careers </p></a>
+                <a href="contact.html"><p>&#8594;</p><p> Contact Us </p></a>
+                <a href="people.html"><p>&#8594;</p><p> Our Team </p></a>
+            </div>
+        </div>
+    </div>
   </body>
-  <script src="jquery-1.12.4.min.js"></script>
+  <script src="vendor/jquery-1.12.4.min.js"></script>
   <script src="java.js"></script>
   <script>
         const ServiceItems = document.querySelectorAll('.service-item-wrapper')
